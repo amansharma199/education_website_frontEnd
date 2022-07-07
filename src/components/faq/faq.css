@@ -1,0 +1,10 @@
+.faq{
+    width: 100%;
+    scroll-margin-top: 50px;
+
+}
+
+.faq .faq_heading{
+    text-align: center;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,136 @@
+.contact{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #6483f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_heading{
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.address_details{
+    margin-top: 20px;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.address_details h1{
+    width: 100%;
+    font-weight: 450;
+    font-size: 25px;
+}
+
+.adress_detail_1{
+    display: flex;
+}
+
+.adress_detail_1 div{
+    width: 50%;
+    font-size: 15px;
+    color: #313131;
+}
+
+.contact_us{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+
+}
+
+.contact_form{
+    width: 60%;
+}
+
+.contact_form input{
+    width: 200px;
+    padding: 10px 10px;
+    margin: 0 10px 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact_form textarea{
+    padding: 5px 10px;
+    width: 86%;
+    height: 165px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.contact_form button{
+    padding: 6px 10px;
+    background-color: #f9cc55;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 70px;
+    border-radius: 8px;
+}
+.contact_form input,textarea,button:focus{
+    outline: none;
+}
+
+.contact_map{
+    width: 40%;
+}
+
+.contact_map img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .address_details{
+        margin-top: 10px;
+        width: auto;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .adress_detail_1{
+        flex-direction: column;
+    }
+
+    .adress_detail_1 p{
+        margin-top: 15px;
+    }
+
+    .contact_us{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_form{
+        width: 100%;
+    }
+
+    .contact_form input{
+        width: 100%;
+    }
+
+    .contact_form textarea{
+        width: 100%;
+    }
+
+    .contact_form button{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    
+    .contact_map{
+        width: 100%;
+    }
+}
